@@ -1,0 +1,59 @@
+body{
+	margin-top:40px;
+	margin-left:517px;
+	background-image:url(maths3.jpg);
+	background-size:cover;
+	}
+center{
+	font-size:25px;
+	font-weight:bold;
+	word-spacing:10px;
+	color:white;
+
+}
+.calci{
+		background-color:#1cdada52;
+		padding:10px;
+		width:335px;
+		height:530px
+}
+input.b{
+	width:80px;
+	height:80px;
+	padding:20px;
+	margin-top:5px;
+	border:none;
+	border-radius:5px;
+	color:white;
+	font-size:30px;
+	font-weight:none;
+	font-family:arial unicode ms;
+	background-color:#0c3b4ead;
+}
+input.b:hover{
+	cursor:pointer;	
+	background-color:#0e0e0e94;	
+	text-decoration:bold;
+	color:yellow;
+}
+input.t{
+	width:332px;
+	height:100px;
+	border:none;
+	border-radius:5px;
+}
+#equall{
+	height:80px;
+	width:165px;
+}
+#erase{
+	height:80px;
+	width:165px;
+	
+}
+#text{
+	background-color:#0c3b4ead;
+	font-size:50px;
+	color:white;
+	
+}
