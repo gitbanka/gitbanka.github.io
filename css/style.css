@@ -1,3 +1,4 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 body{
 	margin-top:40px;
 	margin-left:517px;
@@ -15,8 +16,12 @@ center{
 		background-color:#1cdada52;
 		padding:10px;
 		width:335px;
-		height:530px
-}
+		height:530px;
+		position:absolute;
+		top:50%;
+		left:50%;
+		transform:translate(-50%,-50%);
+	}
 input.b{
 	width:80px;
 	height:80px;
