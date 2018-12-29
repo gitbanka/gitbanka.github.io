@@ -1,38 +1,28 @@
 <html>
-<title>calculator</title>
-	<head>
-	<link rel="stylesheet" href="css/style.css">
-	<script type="text/javascript" src="js/script.js"></script>
-	</head>
+<head>
+	<title>this is my quiz game</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
 <body>
-	<div class="calci">
-	<center>SIMPLE CALCULATOR</center>
-	<form name="form">
-	<input type="text" id="text" name="text" class="t">
-	<br>
-	<input type="button" class="b" value="AC" onclick="form.text.value=''">
-	<input type="button" class="b" id="erase" value="ERASE" onclick="back()">
-	<input type="button" class="b" value="/" onclick="form.text.value+='/'">
-	<br>
-	<input type="button" class="b" value="7" onclick="form.text.value+='7'">
-	<input type="button" class="b" value="8" onclick="form.text.value+='8'">
-	<input type="button" class="b" value="9" onclick="form.text.value+='9'">
-	<input type="button" class="b" value="*" onclick="form.text.value+='*'">
-	<br>
-	<input type="button" class="b" value="4" onclick="form.text.value+='4'">
-	<input type="button" class="b" value="5" onclick="form.text.value+='5'">
-	<input type="button" class="b" value="6" onclick="form.text.value+='6'">
-	<input type="button" class="b" value="-" onclick="form.text.value+='-'">
-	<br>
-	<input type="button" class="b" value="1" onclick="form.text.value+='1'">
-	<input type="button" class="b" value="2" onclick="form.text.value+='2'">
-	<input type="button" class="b" value="3" onclick="form.text.value+='3'">
-	<input type="button" class="b" value="+" onclick="form.text.value+='+'">
-	<br>
-	<input type="button" class="b" value="0" onclick="form.text.value+='0'">
-	<input type="button" class="b" value="." onclick="form.text.value+='.'">
-	<input type="button" class="b" id="equall" value="=" onclick="form.text.value=eval(form.text.value)">
-	</form>
-	</div>
+	<h1>QUIZ CHALLANGE</h1>
+<div class="container">
+	<form method="post" action="sports.php">
+	<h5>RULES</h5>
+	<div class="rules">
+		<ul type="square">
+			<li>each part contains 5 questions.
+			<li>Each correct answer carry "5" marks.
+			<li>Each wrong answer deduct "2" marks from marks obtained.
+		</ul>
+	</div>	
+	<hr><hr>
+	<h2>Select the topic you want to take part in:</h2>
+	<ol>
+	<li><a class="types" href="sports.html">Sports</a><br><br>
+	<li><a class="types" href="geography.html">Indian Geography</a><br><br>
+	<li><a class="types" href="science.html">Science</a><br><br>
+	<li><a class="types" href="movies.html">Movies</a><br>
+	</ol>
+</div>
 </body>
 </html>
