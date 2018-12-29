@@ -41,7 +41,8 @@ input.b:hover{
 	text-decoration:bold;
 	color:yellow;
 	transition: all ease 0.5s;
-	border-bottom: 25px solid yellow;
+	border-left: 10px solid yellow;
+	border-right: 10px solid yellow;
 }
 input.t{
 	width:332px;
