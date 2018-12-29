@@ -181,7 +181,7 @@
 		echo"<h1>----------Thank You----------</h1>";
 		echo"<br>";
 	echo"<center>";
-		echo"<input type='button' class='btn' name='home' value='PLAY AGAIN' onclick=\"location.href='home.html'\">";
+		echo"<input type='button' class='btn' name='home' value='PLAY AGAIN' onclick=\"location.href='index.html'\">";
 	echo"</center>";
 	echo"<br>";
 	echo"</div>";
