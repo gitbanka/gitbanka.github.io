@@ -40,6 +40,8 @@ input.b:hover{
 	background-color:#0e0e0e94;	
 	text-decoration:bold;
 	color:yellow;
+	transition: all ease 0.5s;
+	border-bottom: 25px solid yellow;
 }
 input.t{
 	width:332px;
