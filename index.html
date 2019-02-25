@@ -1,16 +1,38 @@
-<!DOCTYPE html>
 <html>
-<head>
-	<title>student details</title>
-	<link rel="stylesheet" type="text/css" href="details.css">
-</head>
+<title>calculator</title>
+	<head>
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="js/script.js"></script>
+	</head>
 <body>
-	<h1>Search for Students</h1>
-	<form method="post" action="details.php">
-		<label>DATE OF BIRTH :</label>
-	<input type="date" name="dob">
-	<br><br>
-	<input class="btn" type="submit" name="btn" value="search">		
+	<div class="calci">
+	<center>SIMPLE CALCULATOR</center>
+	<form name="form">
+	<input type="text" id="text" name="text" class="t">
+	<br>
+	<input type="button" class="b" value="C" onclick="form.text.value=''">
+	<input type="button" class="b" id="erase" value="ERASE" onclick="back()">
+	<input type="button" class="b" value="/" onclick="form.text.value+='/'">
+	<br>
+	<input type="button" class="b" value="7" onclick="form.text.value+='7'">
+	<input type="button" class="b" value="8" onclick="form.text.value+='8'">
+	<input type="button" class="b" value="9" onclick="form.text.value+='9'">
+	<input type="button" class="b" value="*" onclick="form.text.value+='*'">
+	<br>
+	<input type="button" class="b" value="4" onclick="form.text.value+='4'">
+	<input type="button" class="b" value="5" onclick="form.text.value+='5'">
+	<input type="button" class="b" value="6" onclick="form.text.value+='6'">
+	<input type="button" class="b" value="-" onclick="form.text.value+='-'">
+	<br>
+	<input type="button" class="b" value="1" onclick="form.text.value+='1'">
+	<input type="button" class="b" value="2" onclick="form.text.value+='2'">
+	<input type="button" class="b" value="3" onclick="form.text.value+='3'">
+	<input type="button" class="b" value="+" onclick="form.text.value+='+'">
+	<br>
+	<input type="button" class="b" value="0" onclick="form.text.value+='0'">
+	<input type="button" class="b" value="." onclick="form.text.value+='.'">
+	<input type="button" class="b" id="equall" value="=" onclick="form.text.value=eval(form.text.value)">
 	</form>
+	</div>
 </body>
 </html>
